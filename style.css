@@ -1,0 +1,349 @@
+@charset "UTF-8";
+
+@font-face {
+    font-family: 'Relogio Clock';
+    src: url(fontes/DS-DIGI.TTF) format('truetype');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+@media (max-width: 600px) {
+
+    
+    p#temporizador {
+        position: relative;
+        text-align: center;
+        font-family: 'Relogio Clock';
+        font-size: 3.5em;
+        margin-top: 40%;
+        font-weight: 590;
+    }
+
+    span {
+        position: relative;
+    }
+
+    span#pontomilesimos {
+        position: relative;
+        font-size: 1.5rem;
+    }
+
+    span#milesimos {
+        position: relative;
+        font-size: 1.5rem;
+    }
+
+    section#botoes {
+        display: flex;
+        justify-content: center;
+        gap: 1em;
+        margin-top: 3em;
+    }
+
+
+    
+
+    button {
+        padding: 20px;
+    }
+
+    button#iniciar {
+        width: 33%;
+        background-color: green;
+        color: white;
+        border: none;
+        border-radius: 3px;
+    }
+
+    
+
+    button#finalizar {
+        width: 33%;
+        background-color: red;
+        color: white;
+        border: none;
+        border-radius: 3px;
+    }
+
+
+    button#reiniciar {
+        width: 33%;
+        background-color: rgb(11, 151, 221);
+        color: white;
+        border: none;
+        border-radius: 3px;
+    }
+
+
+    button#retornar {
+        width: 33%;
+        background-color: rgba(255, 213, 0, 0.793);
+        color: white;
+        border: none;
+        border-radius: 3px;
+    }
+    
+}
+
+
+@media (min-width: 601px) and (max-width: 768px) {
+    p#temporizador {
+        position: relative;
+        text-align: center;
+        font-family: 'Relogio Clock';
+        font-size: 9em;
+        margin-top: 30%;
+    }
+
+    span {
+        position: relative;
+    }
+
+    span#pontomilesimos {
+        position: relative;
+        font-size: 3rem;
+    }
+
+    span#milesimos {
+        position: relative;
+        font-size: 3rem;
+    }
+
+    section#botoes {
+        display: flex;
+        justify-content: center;
+        gap: 1em;
+        margin-top: 3em;
+    }
+
+    button {
+        padding: 33px;
+    }
+
+    button#iniciar {
+        width: 33%;
+        background-color: green;
+        color: white;
+        border: none;
+        border-radius: 3px;
+    }
+
+
+    button#finalizar {
+        width: 33%;
+        background-color: red;
+        color: white;
+        border: none;
+        border-radius: 3px;
+    }
+    
+
+    button#reiniciar {
+        width: 33%;
+        background-color: rgb(11, 151, 221);
+        color: white;
+        border: none;
+        border-radius: 3px;
+    }
+
+
+    button#retornar {
+        width: 33%;
+        background-color: rgba(255, 213, 0, 0.793);
+        color: white;
+        border: none;
+        border-radius: 3px;
+    }
+
+    
+}
+
+
+@media (min-width: 769px) and (max-width: 992px) {
+    p#temporizador {
+        position: relative;
+        text-align: center;
+        font-family: 'Relogio Clock';
+        font-size: 9em;
+        margin-top: 20%;
+        
+    }
+
+    span {
+        position: relative;
+    }
+
+    span#pontomilesimos {
+        position: relative;
+        font-size: 3rem;
+    }
+
+    span#milesimos {
+        position: relative;
+        font-size: 3rem;
+    }
+
+    section#botoes {
+        display: flex;
+        justify-content: center;
+        gap: 1em;
+        margin-top: 3em;
+    }
+
+    button {
+        padding: 33px;
+    }
+
+    button#iniciar {
+        width: 33%;
+        background-color: green;
+        color: white;
+        border: none;
+        border-radius: 3px;
+    }
+
+
+    button#finalizar {
+        width: 33%;
+        background-color: red;
+        color: white;
+        border: none;
+        border-radius: 3px;
+    }
+    
+
+    button#reiniciar {
+        width: 33%;
+        background-color: rgb(11, 151, 221);
+        color: white;
+        border: none;
+        border-radius: 3px;
+    }
+
+
+    button#retornar {
+        width: 33%;
+        background-color: rgba(255, 213, 0, 0.793);
+        color: white;
+        border: none;
+        border-radius: 3px;
+    }
+
+    
+
+    
+}
+
+
+@media (min-width: 993px) {
+
+    main {
+        width: 700px;
+        margin: auto;
+        margin-top: 150px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    p#temporizador {
+        position: relative;
+        text-align: center;
+        font-family: 'Relogio Clock';
+        font-size: 10em;
+        margin-top: 10%;
+    }
+
+    span {
+        position: relative;
+    }
+
+    span#pontomilesimos {
+        position: relative;
+        font-size: 3rem;
+    }
+
+    span#milesimos {
+        position: relative;
+        font-size: 3rem;
+    }
+    
+    section#botoes {
+        display: flex;
+        justify-content: center;
+        gap: 1em;
+        margin-top: 3em;
+    }
+    
+    button {
+        padding: 33px;
+    }
+    
+    button#iniciar {
+        width: 25%;
+        background-color: green;
+        color: white;
+        border: none;
+        border-radius: 3px;
+    }
+    
+    
+    button#finalizar {
+        width: 25%;
+        background-color: red;
+        color: white;
+        border: none;
+        border-radius: 3px;
+    }
+    
+
+    button#reiniciar {
+        width: 25%;
+        background-color: rgb(11, 151, 221);
+        color: white;
+        border: none;
+        border-radius: 3px;
+    }
+
+
+    button#retornar {
+        width: 25%;
+        background-color: rgba(255, 213, 0, 0.793);
+        color: white;
+        border: none;
+        border-radius: 3px;
+    }
+
+  
+    
+}
+
+
+
+
+
+
+button#iniciar:hover {
+    background-color: rgb(0, 101, 0);
+}
+
+
+button#finalizar:hover {
+    background-color: rgb(196, 0, 0);
+}
+
+button#reiniciar:hover {
+    background-color: rgb(8, 127, 187);
+}
+
+button#retornar:hover {
+    background-color: rgba(226, 189, 4, 0.793);
+}
+
