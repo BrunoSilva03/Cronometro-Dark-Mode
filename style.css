@@ -14,6 +14,8 @@
     box-sizing: border-box;
 }
 
+
+
 @media (max-width: 600px) {
 
     
@@ -89,6 +91,9 @@
         border: none;
         border-radius: 3px;
     }
+
+
+   
     
 }
 
@@ -327,7 +332,25 @@
 
 
 
+section#botaodark {
+    display: flex;
+    justify-content: right;
+    align-items: end;
+    height: 200px;
+    width: 100;
+}
 
+
+section#botaodark > button {
+    background-color: black;
+    border-radius: 50%;
+    border: none;
+}
+
+i {
+    color: yellow;
+    font-size: x-large;
+}
 
 
 button#iniciar:hover {

@@ -2,6 +2,7 @@ let buttonIniciar = window.document.getElementById('iniciar');
 let buttonFinalizar = window.document.getElementById('finalizar');
 let buttonReiniciar = window.document.getElementById('reiniciar');
 let buttonRetornar = window.document.getElementById('retornar');
+let mododark = false;
 
 
 buttonIniciar.addEventListener('click', iniciarContagem);
@@ -263,4 +264,17 @@ function zerarValoresTimer() {
     window.document.getElementById('iniciar').hidden = false;
     window.document.getElementById('finalizar').hidden = false;
     tempo = undefined;
+}
+
+
+function mudatemaLayoult() {
+    if(mododark == false) {
+        window.document.body.style.backgroundColor = '#1d1d1d';
+        window.document.body.style.color = 'white';
+        mododark = true;
+    } else {
+        window.document.body.style.backgroundColor = 'white';
+        window.document.body.style.color = 'black';
+        mododark = false;
+    }
 }
