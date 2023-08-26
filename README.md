@@ -1,4 +1,10 @@
 # Cronometro-Dark-Mode
+
+
+
+ Cronômetro com a opção de Dark Mode
+
+
  
 # [ACESSE O SITE](https://brunosilva03.github.io/Cronometro-Dark-Mode/)
 
